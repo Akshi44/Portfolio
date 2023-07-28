@@ -41,7 +41,7 @@ function HeadersComponent() {
 				<Box className={classes.Headercontaier}>
 						 <Typography varinat='h3' component='h4' className={classes.headerTitle}>
 									 <h5 style={{marginBottom:'-1px'}}>Hello !<br/> I'm Akshita Agrawal</h5> 
-										<span style={{ paddingRight: "5px" ,fontSize:"40px"}}>▶</span>
+										<span style={{ paddingRight: "5px" ,fontSize:"40px",color:"#0097a7"}}>▶</span>
 										<Typed
 											strings={["competitive programmer"," Webdeveloper", " Graphic Designer","Creative Writer"]}
 											typeSpeed={30}
