@@ -42,9 +42,9 @@ function Project() {
 			{/* imge section  */}
 	
 			<Container maxWidth='xl'>
-			  <Grid container spacing={2}>
+			  <Grid container spacing={2} >
 				{projectData.map((item, i) => (
-				  <Grid item xs={6} sm={6} lg={4} key={i} >
+				  <Grid item xs={6} sm={6} lg={4} key={i}  >
 					<Box className={classes.imageContainer}>
 					  <img
 						src={item.url}
@@ -52,7 +52,7 @@ function Project() {
 						className={classes.responsiveImg}
 					  />
 					  <Box className={classes.imageOverlay}>
-						<Typography className={classes.overlayTitle}>
+						<Typography className={classes.overlayTitle} >
 						  {item.title}
 						</Typography>
 						{item.disc}

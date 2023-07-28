@@ -33,7 +33,7 @@ export default function AboutUs() {
   
   ];
   return (
-	<Box className={classes.section} id='About'>
+	<Box className={classes.section} id='About' >
 	  <ScrollAnimation animateIn='fadeIn'>
 		<Container >
 		  <Grid container spacing={1}>

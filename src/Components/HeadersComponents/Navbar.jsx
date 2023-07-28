@@ -25,7 +25,7 @@ import {
 	// 	{label:"Contact",Id:"COntact"}
 	//    ];
 	return (
-	  <AppBar position='fixed' className={classes.navbar}>
+	  <AppBar position='fixed' className={classes.navbar} style={{width:"100%"}}>
 		<Toolbar
 		  className={classes.ToolBar}
 		  style={{ backgroundColor: Theme.colors.base1 }}>

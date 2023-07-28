@@ -122,7 +122,7 @@ exp:{
 		color: Theme.colors.base2,
 	},
 
-	// # portfolio section
+	// # project section
 	imageContainer: {
 		position: "relative",
 		"&:hover $imageOverlay": {
@@ -199,7 +199,7 @@ exp:{
 			color:"skyblue",
 		}
 	},
-	//form com=ntainer
+	//form container
 	formContainer: {
 		padding: theme.spacing(2),
 		margin: theme.spacing(2, 0),
